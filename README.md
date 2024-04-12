@@ -6,15 +6,24 @@ Overview - Python's Turtle Graphics provides a physical illustration of a virtua
 Starting a turtle environment - from turtle import *
 (Please install the Tk interface package on your computer if you encounter the error "No module named '_tkinter'.")
 
-basics.py 
-
-import turtle as t
-timmy_the_turtle = t.Turtle()
-timmy_the_turtle.shape("turtle")
-timmy_the_turtle.color("red")
-timmy_the_turtle.forward(100)
+basics.py
 
 explanation -  Basic turtle graphics methods include forward(), backward(), right(), left(), penup(), pendown(), speed(), color(), bgcolor(), and reset(). These commands control the turtle's movement, pen state, speed, and colors, enabling the creation of various shapes and patterns on the canvas.
+
+draw_a_line.py
+
+explanation - In turtle graphics, the drawing state is controlled by these pen control techniques.
+
+Pen control (Drawing state )
+
+pendown() | pd() | down() - The turtle can draw lines because "pendown()" lowers the pen
+penup() | pu() | up() -  "penup()" lifts the pen, preventing drawing.
+pensize() | width() - "pensize()" sets the thickness of lines drawn.
+pen() - "pen()" combines color and width settings.
+isdown()  - "isdown()" checks if the pen is down. 
+
+
+
 
 
 
