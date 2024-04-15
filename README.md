@@ -51,6 +51,16 @@ move_forward.py
 You can focus on the TurtleScreen to gather important events by using these Turtle module calls. Turtle.onkey() binds a function to a key press event, Turtle.onkeyrelease() binds a function to a key release event, and turtle.listen() focuses on the screen. These features allow keyboard inputs to be used to interact with the turtle images.
 
 
+different_directions.py
+
+(Pen control)
+More drawing control from turtle
+reset() - The Turtle module's reset() function clears the screen in addition to returning the turtle's location, direction, and other properties to their initial values. 
+clear() - The turtle.clear() function does not move the turtle or change the locations or drawings of other turtles; instead, it removes only the turtle's drawings from the screen.
+write() - The turtle.write() function uses the supplied font and aligns text on the TurtleScreen at the current turtle position ("left", "center", or "right"). After writing, the pen goes to the lower-right corner of the text if move is set to True.
+
+
+ Turtle's position - The home() function returns the turtle to its initial location in the middle of the screen. The home position of the turtle is at (0, 0), and you may use pos() to get its current position. You can use clearscreen() to start over by erasing the entire window. Resetting the drawing environment and controlling the turtle's location are made easier with the help of these functions.
 
 
 
